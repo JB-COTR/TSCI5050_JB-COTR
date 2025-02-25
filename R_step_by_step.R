@@ -1,5 +1,5 @@
 #'---
-#' title: "TSCI 5050: Introduction to Data Science"
+#' title: "TSCI 5050: Simulating a data set"
 #' author: 'Author One ^1^, Author Two ^1^'
 #' abstract: |
 #'  | Provide a summary of objectives, study design, setting, participants,
@@ -39,6 +39,9 @@ panderOptions('table.split.table',Inf); panderOptions('table.split.cells',Inf);
 whatisthis <- function(xx){
   list(class=class(xx),info=c(mode=mode(xx),storage.mode=storage.mode(xx)
                               ,typeof=typeof(xx)))};
+# import data ----
+datafile0 <-
+datafile0 <- ""
 # R basic syntax ----
 #'
 #' # R basic syntax
